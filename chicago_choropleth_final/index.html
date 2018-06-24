@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>chicago_choropleth_final</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Tajawal'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <html>
+<head>
+	<meta charset="utf-8" />
+	<title>CRIME IN CHICAGO</title>
+	<link rel="stylesheet"  />
+  
+  <script src="main.js"></script>
+  <script src="index.js"></script>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	
+</head>
+
+<body >
+  <div id="title">
+    <div id="head">CRIME IN CHICAGO
+    </div>
+    <div id="ci"></div>
+    <div id="ci2"></div>
+  </div>
+  <div id="content">
+	  <div id="map-canvas"></div>
+    <div id ="color"><h3>顏色種類</h3>
+      <div class="stamp" id="c1"><h4>鬥毆</h4></div>
+      <div class="stamp" id="c4"><h4>入戶竊盜</h4></div>
+      <div class="stamp" id="c7"><h4>侵犯人身</h4></div>
+      <div class="stamp" id="c9"><h4>縱火</h4></div>
+      <div class="stamp" id="c6"><h4>偷竊</h4></div>
+      <div class="stamp" id="c11"><h4>詐欺</h4></div>
+    </div>
+    <div id="ex">
+      <div id="show">
+        <h3 id="txt">各區顯著<br>犯罪種類</h3>
+        <label class="switch" >
+          <input type="checkbox" id="q1"checked="true">
+          <span class="slider round" id="s1"></span>
+        </label><br></div>
+      <div id="show" class="sh2">
+        <h3 id="txt2">各區顯著逮捕<br>失敗犯罪種類</h3>
+        <label class="switch" >
+          <input type="checkbox" id="q2">
+          <span class="slider round" id="s2"></span>
+        </label><br>
+      </div>
+      <div id="show" class="sh3">
+        <h3 id="txt3">最多偷竊且未<br>被代補的區域</h3>
+        <label class="switch" >
+          <input type="checkbox" id="q3">
+          <span class="slider round" id="s3"></span>
+        </label><br>
+      </div>
+      <div id="show" class="sh4">
+        <h3 id="txt4">犯罪分佈</h3>
+        <label class="switch" >
+          <input type="checkbox" id="q4">
+          <span class="slider round" id="s4"></span>
+        </label><br>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
+  <script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyCWA4XIQuDs-oT_IBF0vbFl9-n2oPQGbv0&callback=initMap'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
